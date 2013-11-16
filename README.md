@@ -1,4 +1,4 @@
-# Colloquy Puppet Module for Boxen
+# Colloquy Puppet Module for Boxen [![Build Status](https://travis-ci.org/rhoml/puppet-colloquy.png?branch=master)](https://travis-ci.org/rhoml/puppet-colloquy)
 
 Install [Colloquy](http://colloquy.info/), simple IRC client.
 
