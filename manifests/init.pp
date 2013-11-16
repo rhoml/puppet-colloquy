@@ -1,4 +1,12 @@
-# This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+# Public: Install colloquy into /Applications.
+#
+# Examples
+#
+#   include colloquy
+class colloquy {
+  package {
+    'colloquy':
+      source   => 'http://colloquy.info/downloads/colloquy-latest.zip',
+      provider => 'compressed_app'
+  }
 }
